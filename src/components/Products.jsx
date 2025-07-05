@@ -17,7 +17,7 @@ function Products(){
   }
 
   return(
-    <div className="mt-10 md:mt-20 relative">
+    <div className="mt-10 md:p-0 p-3  md:mt-20 relative">
       {products.map((val,index)=> <Product key={index} count={index} val={val} mover={mover}/>)}
       
       {/* Video window - responsive for all screen sizes */}
