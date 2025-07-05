@@ -1,2 +1,23 @@
 @import "tailwindcss";
 
+/* Ensure html and body take full width and height */
+html {
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+body, #root {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* Responsive utility: make images and videos scale */
+img, video {
+  max-width: 100%;
+  height: full;
+  display: block;
+}
